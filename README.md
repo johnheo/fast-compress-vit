@@ -1,12 +1,12 @@
 # A Fast Training-free Compression Framework for Vision Transformers
-Official Pytorch Implementation of our paper "A Fast Training-free Compression Framework for Vision Transformers" [paper]
+Official Pytorch Implementation of our paper "A Fast Training-free Compression Framework for Vision Transformers" [[paper](https://arxiv.org/pdf/2303.02331.pdf)]
 
 
 > Jung Hwan Heo, Arash Fayyazi, Mahdi Nazemi, Massoud Pedram
 
 ## Motivation
 ![Visualization](assets/vis.png)
-[Token Merging](https://github.com/facebookresearch/ToMe) (ToMe) emerged as a promising solution to accelerate off-the-shelf Vision Trnansformers _without training_. However, it can suffer from accuracy drop when compared to other token reduction techniques that do use training. In this work, we propose a more performant training-free paradigm to close the performance gap.
+[Token Merging (ToMe)](https://github.com/facebookresearch/ToMe)  emerged as a promising solution to accelerate off-the-shelf Vision Trnansformers _without training_. However, it can suffer from accuracy drop when compared to other token reduction techniques that do use training. In this work, we propose a more performant training-free paradigm to close the performance gap.
 
 ## What is it?
 ![Visualization](assets/main.png)
@@ -45,10 +45,15 @@ Here are some expected results when using the timm implementation *off-the-shelf
 If you find our work useful or relevant to your research, please kindly cite our paper:
 
 ```bibtex
-@article foo
+@article{heo2023fastcompvit,
+  title={A Fast Training-Free Compression Framework for Vision Transformers},
+  author={Heo, Jung Hwan and Fayyazi, Arash and Nazemi, Mahdi and Pedram, Massoud},
+  journal={arXiv},
+  year={2023}
+}
 ```
 
 ### TODO
 - [ ] Add Usage
 - [ ] Add Installation
-- [ ] Add Citation
+- [x] Add Citation
