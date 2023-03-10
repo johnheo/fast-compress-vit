@@ -45,10 +45,10 @@ Here are some expected results when using the timm implementation *off-the-shelf
 If you find our work useful or relevant to your research, please kindly cite our paper:
 
 ```bibtex
-@article{heo2023fastcompvit,
+@article{heo2023fast,
   title={A Fast Training-Free Compression Framework for Vision Transformers},
   author={Heo, Jung Hwan and Fayyazi, Arash and Nazemi, Mahdi and Pedram, Massoud},
-  journal={arXiv},
+  journal={arXiv preprint arXiv:2303.02331},
   year={2023}
 }
 ```
